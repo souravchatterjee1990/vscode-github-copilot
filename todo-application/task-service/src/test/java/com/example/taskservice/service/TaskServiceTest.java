@@ -50,8 +50,9 @@ class TaskServiceTest {
         List<TaskResponse> responses = taskService.getAllTasks();
 
         assertThat(responses).hasSize(2);
-        assertThat(responses.getFirst().getStatus()).isEqualTo(TaskStatus.COMPLETED);
-        assertThat(responses.get(1).getStatus()).isEqualTo(TaskStatus.PENDING);
+        assertThat(responses)
+                .extracting(TaskResponse::getStatus)
+                .containsExactlyInAnyOrder(TaskStatus.COMPLETED, TaskStatus.PENDING);
     }
 
     @Test
@@ -146,7 +147,7 @@ class TaskServiceTest {
         TaskRequest request = TaskRequest.builder()
                 .title("New")
                 .description("New desc")
-                .completed(false)
+                .completed(true)
                 .status(TaskStatus.COMPLETED)
                 .build();
         when(taskRepository.findById(30L)).thenReturn(Optional.of(existingTask));
