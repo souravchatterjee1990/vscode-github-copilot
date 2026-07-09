@@ -1,0 +1,15 @@
+com\example\taskservice\dto\TaskRequest.class
+com\example\taskservice\repository\TaskRepository.class
+com\example\taskservice\exception\GlobalExceptionHandler.class
+com\example\taskservice\entity\Task$TaskBuilder.class
+com\example\taskservice\config\DataInitializer.class
+com\example\taskservice\dto\TaskRequest$TaskRequestBuilder.class
+com\example\taskservice\TaskServiceApplication.class
+com\example\taskservice\service\ModeService.class
+com\example\taskservice\config\CorsConfig.class
+com\example\taskservice\entity\Task.class
+com\example\taskservice\controller\TaskController.class
+com\example\taskservice\dto\TaskResponse.class
+com\example\taskservice\entity\TaskStatus.class
+com\example\taskservice\service\TaskService.class
+com\example\taskservice\dto\TaskResponse$TaskResponseBuilder.class

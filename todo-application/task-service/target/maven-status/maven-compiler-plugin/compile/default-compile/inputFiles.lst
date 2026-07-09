@@ -1,0 +1,12 @@
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\config\CorsConfig.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\config\DataInitializer.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\controller\TaskController.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\dto\TaskRequest.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\dto\TaskResponse.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\entity\Task.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\entity\TaskStatus.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\exception\GlobalExceptionHandler.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\repository\TaskRepository.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\service\ModeService.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\service\TaskService.java
+D:\Workbench\vscode-github-copilot\todo-application\task-service\src\main\java\com\example\taskservice\TaskServiceApplication.java
