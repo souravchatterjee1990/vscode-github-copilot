@@ -39,8 +39,8 @@ import { Task } from '../../models/task.model';
 
           <div class="actions">
             <button mat-stroked-button type="button" [routerLink]="['/']">Cancel</button>
-            <button mat-flat-button color="primary" type="submit" [disabled]="form.invalid">
-              Save
+            <button mat-flat-button type="submit" class="submit-btn" [disabled]="form.invalid">
+              {{ editing() ? 'Save changes' : 'Add task' }}
             </button>
           </div>
         </form>
@@ -59,6 +59,23 @@ import { Task } from '../../models/task.model';
         justify-content: flex-end;
         gap: 0.75rem;
         margin-top: 0.5rem;
+      }
+
+      .submit-btn {
+        --mdc-filled-button-container-color: #1976d2;
+        --mdc-filled-button-label-text-color: #ffffff;
+        --mat-filled-button-state-layer-color: #ffffff;
+        --mat-filled-button-hover-state-layer-opacity: 0.08;
+        background-color: #1976d2 !important;
+        color: #ffffff !important;
+      }
+
+      .submit-btn:hover {
+        background-color: #1565c0 !important;
+      }
+
+      .submit-btn[disabled] {
+        opacity: 0.6;
       }
     `,
   ],
